@@ -1,3 +1,7 @@
-hello/Greeting.class
-hello/Application.class
-hello/GreetingController.class
+au/com/vb/emailservice/rest/controllers/dto/Greeting.class
+au/com/vb/emailservice/service/EmailService.class
+au/com/vb/emailservice/service/impl/MailGunEmailServiceImpl.class
+au/com/vb/emailservice/Application.class
+au/com/vb/emailservice/rest/controllers/dto/Email.class
+au/com/vb/emailservice/rest/controllers/EmailController.class
+au/com/vb/emailservice/service/impl/SendGridEmailServiceImpl.class
