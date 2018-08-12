@@ -1,4 +1,4 @@
-package au.com.vb.emailservice.http;
+package au.com.vb.springboot.http;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
