@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b484ef-9c82-467a-9679-6aa099c24eb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/email-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +36,7 @@
           <entry key="README" value="2" />
           <entry key="class" value="13" />
           <entry key="html" value="2" />
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="json" value="1" />
           <entry key="xml" value="2" />
           <entry key="yml" value="1" />
@@ -54,7 +46,7 @@
         <counts>
           <entry key="CLASS" value="13" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
@@ -66,9 +58,9 @@
           <entry key="README" value="137" />
           <entry key="dummy" value="36" />
           <entry key="html" value="13" />
-          <entry key="java" value="5086" />
+          <entry key="java" value="5244" />
           <entry key="json" value="16" />
-          <entry key="txt" value="106" />
+          <entry key="txt" value="141" />
           <entry key="xml" value="3" />
           <entry key="yml" value="7" />
         </counts>
@@ -76,9 +68,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="13" />
-          <entry key="JAVA" value="5086" />
+          <entry key="JAVA" value="5244" />
           <entry key="JSON" value="16" />
-          <entry key="PLAIN_TEXT" value="279" />
+          <entry key="PLAIN_TEXT" value="314" />
           <entry key="XML" value="3" />
           <entry key="YAML" value="7" />
         </counts>
@@ -95,6 +87,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -179,25 +180,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            <state relative-caret-position="111">
+              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/io/CharTypes.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#778#779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -240,12 +229,12 @@
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -257,8 +246,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
-    <option name="y" value="28" />
+    <option name="x" value="80" />
+    <option name="y" value="23" />
     <option name="width" value="1343" />
     <option name="height" value="797" />
   </component>
@@ -421,7 +410,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534420102816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534420472600" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -561,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534069847986</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added object mapper.">
+      <created>1534420130183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534420130183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -596,26 +592,36 @@
       <configuration name="EmailControllerTest.sendEmail" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="28" width="1343" height="797" extended-state="0" />
+    <frame x="80" y="23" width="1343" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.39508072" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.39508072" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.4496454" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.4496454" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.19347826" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.1929078" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.44113475" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.44113475" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32624114" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -633,7 +639,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic mailgun works with hardcoded email address." />
     <MESSAGE value="Basic sendgrid implementation with index.html." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic sendgrid implementation with index.html." />
+    <MESSAGE value="Added object mapper." />
+    <MESSAGE value="Added index.html." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added index.html." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -729,13 +737,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -856,26 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -895,11 +876,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        <state relative-caret-position="111">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
         </state>
       </provider>
     </entry>

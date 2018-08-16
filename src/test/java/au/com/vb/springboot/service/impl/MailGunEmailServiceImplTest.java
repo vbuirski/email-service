@@ -1,6 +1,9 @@
 package au.com.vb.springboot.service.impl;
 
 import au.com.vb.springboot.controller.EmailController;
+import au.com.vb.springboot.model.Email;
+import au.com.vb.springboot.model.EmailResponse;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -44,17 +47,11 @@ public class MailGunEmailServiceImplTest {
   @Test
   public void createEmail() throws Exception {
 
-    // Send email as body to endpoint
-    RequestBuilder requestBuilder = MockMvcRequestBuilders
-            .post(endPoint)
-            .accept(MediaType.APPLICATION_JSON).content(emailJson)
-            .contentType(MediaType.APPLICATION_JSON);
+    ObjectMapper objectMapper = new ObjectMapper();
+    Email email = objectMapper.readValue(emailJson, Email.class);
+    EmailResponse response = mailGunEmailService.sendEmail(email);
 
-    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-    MockHttpServletResponse response = result.getResponse();
-
-    Assert.assertEquals(HttpStatus.CREATED.value(), response.getStatus());
+    Assert.assertEquals(response.getSuccessFlag(), "Ok");
 
   }
 
