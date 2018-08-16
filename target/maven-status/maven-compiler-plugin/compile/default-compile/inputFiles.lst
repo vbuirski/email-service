@@ -1,4 +1,3 @@
-/Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/model/Email.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/EmailService.java

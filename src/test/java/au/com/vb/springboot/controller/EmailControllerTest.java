@@ -31,7 +31,7 @@ public class EmailControllerTest {
   @MockBean
   private MailGunEmailServiceImpl mailGunEmailService;
 
-  Email mockEmail = new Email(1, "vonita.buirski@gmail.com", "","","hello", "my content");
+  Email mockEmail = new Email("vonita.buirski@gmail.com", "","","hello", "my content");
 
   String emailJson = "{"
           + "\"toList\": \"jevon.buirski@gmail.com\","

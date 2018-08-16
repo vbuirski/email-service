@@ -4,5 +4,4 @@ au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.class
 au/com/vb/springboot/model/EmailResponse.class
 au/com/vb/springboot/model/Email.class
 au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.class
-au/com/vb/springboot/http/HttpUrlConnection.class
 au/com/vb/springboot/service/EmailService.class

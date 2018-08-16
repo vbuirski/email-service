@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b484ef-9c82-467a-9679-6aa099c24eb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/EmailResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/http/HttpUrlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/rest/controllers/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/rest/controllers/dto/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/rest/controllers/dto/Greeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/service/EmailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/service/impl/MailGunEmailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/service/impl/SendGridEmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/email-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,51 +26,61 @@
     <session id="392809079">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="README" value="1" />
-          <entry key="class" value="3" />
-          <entry key="html" value="1" />
-          <entry key="java" value="14" />
+          <entry key="README" value="2" />
+          <entry key="class" value="13" />
+          <entry key="html" value="2" />
+          <entry key="java" value="26" />
           <entry key="json" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="CLASS" value="13" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="26" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="README" value="137" />
           <entry key="dummy" value="36" />
           <entry key="html" value="13" />
-          <entry key="java" value="3658" />
+          <entry key="java" value="5086" />
           <entry key="json" value="16" />
-          <entry key="txt" value="59" />
+          <entry key="txt" value="106" />
           <entry key="xml" value="3" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="13" />
-          <entry key="JAVA" value="3658" />
+          <entry key="JAVA" value="5086" />
           <entry key="JSON" value="16" />
-          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="PLAIN_TEXT" value="279" />
           <entry key="XML" value="3" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -87,34 +88,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="40" selection-end-column="45" />
+            <state relative-caret-position="138">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +99,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="179" column="224" selection-start-line="179" selection-start-column="224" selection-end-line="179" selection-end-column="224" />
+            <state relative-caret-position="128">
+              <caret line="1137" selection-start-line="1137" selection-end-line="1137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/JsonFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="312" selection-start-line="312" selection-end-line="312" />
+              <folding>
+                <element signature="e#4862#4863#0" expanded="true" />
+                <element signature="e#4883#4884#0" expanded="true" />
+                <element signature="e#21556#21557#0" expanded="true" />
+                <element signature="e#21606#21607#0" expanded="true" />
+                <element signature="e#21634#21635#0" expanded="true" />
+                <element signature="e#21674#21675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,35 +149,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="91" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/EmailResponse.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="201">
+              <caret line="2498" selection-start-line="2498" selection-end-line="2498" />
               <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,11 +179,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="244">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,24 +192,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/io/CharTypes.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,15 +235,17 @@
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/rest/controllers/EmailController.java" />
         <option value="$PROJECT_DIR$/src/test/resources/createEmail.json" />
         <option value="$PROJECT_DIR$/src/test/java/au/com/vb/emailservice/service/impl/MailGunEmailServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/EmailResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/EmailService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -267,11 +256,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="72" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="94" />
+    <option name="y" value="28" />
     <option name="width" value="1343" />
-    <option name="height" value="798" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -293,8 +282,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -319,6 +306,58 @@
               <item name="emailservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,16 +371,57 @@
             <path>
               <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emailservice" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534069726627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534420102816" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -380,12 +460,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendGridEmailServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="au.com.vb.springboot.service.impl.SendGridEmailServiceImpl" />
+    <configuration name="EmailController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="au.com.vb.springboot.controller.EmailController" />
       <module name="emailservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="au.com.vb.springboot.service.impl.*" />
+          <option name="PATTERN" value="au.com.vb.springboot.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,22 +487,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailControllerTest.createEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="emailservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="au.com.vb.springboot.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="au.com.vb.springboot.controller" />
-      <option name="MAIN_CLASS_NAME" value="au.com.vb.springboot.controller.EmailControllerTest" />
-      <option name="METHOD_NAME" value="createEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmailControllerTest.sendEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="emailservice" />
       <extension name="coverage">
@@ -439,20 +503,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MailGunEmailServiceImplTest.shouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emailservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="au.com.vb.springboot.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="au.com.vb.springboot.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="au.com.vb.springboot.service.impl.MailGunEmailServiceImplTest" />
+      <option name="METHOD_NAME" value="shouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="Application.SendGridEmailServiceImpl" />
-      <item itemvalue="JUnit.EmailControllerTest.createEmail" />
       <item itemvalue="JUnit.EmailControllerTest" />
       <item itemvalue="JUnit.EmailControllerTest.sendEmail" />
+      <item itemvalue="Application.EmailController" />
+      <item itemvalue="JUnit.MailGunEmailServiceImplTest.shouldThrowException" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.EmailControllerTest.sendEmail" />
+        <item itemvalue="JUnit.MailGunEmailServiceImplTest.shouldThrowException" />
+        <item itemvalue="Application.EmailController" />
         <item itemvalue="JUnit.EmailControllerTest" />
-        <item itemvalue="JUnit.EmailControllerTest.createEmail" />
-        <item itemvalue="Application.SendGridEmailServiceImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533990064242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic sendgrid implementation with index.html.">
+      <created>1534069847986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534069847986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -499,29 +586,37 @@
     <history-entry file="EmailControllerTest_sendEmail - 2018.08.12 at 18h 44m 11s.xml">
       <configuration name="EmailControllerTest.sendEmail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmailControllerTest_sendEmail - 2018.08.14 at 11h 15m 12s.xml">
+      <configuration name="EmailControllerTest.sendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailControllerTest_sendEmail - 2018.08.16 at 20h 29m 37s.xml">
+      <configuration name="EmailControllerTest.sendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailControllerTest_sendEmail - 2018.08.16 at 20h 29m 46s.xml">
+      <configuration name="EmailControllerTest.sendEmail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="94" y="28" width="1343" height="797" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.33619457" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.39508072" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.45042494" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.4496454" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.19347826" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3759036" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.44113475" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719547" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32624114" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -537,7 +632,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic mailgun works with hardcoded email address." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic mailgun works with hardcoded email address." />
+    <MESSAGE value="Basic sendgrid implementation with index.html." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic sendgrid implementation with index.html." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,15 +646,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java</url>
-          <line>19</line>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -567,20 +675,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/dto/Greeting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/dto/Greeting.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/emailservice/http/InstallCert.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/protocol/https/AbstractDelegateHttpsURLConnection.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -596,23 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/org/apache/coyote/http11/Http11InputBuffer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -620,32 +698,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/createEmail.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/http/HttpUrlConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/EmailServicesApplication.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="11" selection-start-column="3" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/createEmail.json">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/EmailResponse.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,40 +754,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/util/BufferRecyclers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/util/BufferRecycler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/io/IOContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/base/ParserMinimalBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="532" selection-start-line="532" selection-end-line="532" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/JsonParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="460" selection-start-line="460" selection-end-line="460" />
+          <folding>
+            <element signature="e#12475#12476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/io/CharTypes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#778#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="2498" selection-start-line="2498" selection-end-line="2498" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/JsonFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="312" selection-start-line="312" selection-end-line="312" />
+          <folding>
+            <element signature="e#4862#4863#0" expanded="true" />
+            <element signature="e#4883#4884#0" expanded="true" />
+            <element signature="e#21556#21557#0" expanded="true" />
+            <element signature="e#21606#21607#0" expanded="true" />
+            <element signature="e#21634#21635#0" expanded="true" />
+            <element signature="e#21674#21675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1137" selection-start-line="1137" selection-end-line="1137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/controller/EmailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="219">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -701,39 +878,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/model/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="91" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/au/com/vb/springboot/controller/EmailControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="40" selection-end-column="45" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="179" column="224" selection-start-line="179" selection-start-column="224" selection-end-line="179" selection-end-column="224" />
+        <state relative-caret-position="244">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

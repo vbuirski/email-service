@@ -1,43 +1,42 @@
 package au.com.vb.springboot.model;
 
 public class Email {
-  private final long id;
-  private final String to;
-  private final String cc;
-  private final String bcc;
-  private final String subject;
-  private final String content;
 
-  public Email(long id, String to, String cc, String bcc, String subject, String content) {
-    this.id = id;
-    this.to = to;
-    this.cc = cc;
-    this.bcc = bcc;
+  private String toList;
+  private String ccList;
+  private String bccList;
+  private String subject;
+  private String msg;
+
+  public Email() {
+
+  }
+
+  public Email(String toList, String ccList, String bccList, String subject, String msg) {
+    this.toList = toList;
+    this.ccList= ccList;
+    this.bccList = bccList;
     this.subject = subject;
-    this.content = content;
+    this.msg = msg;
   }
 
-  public long getId() {
-    return id;
+  public String getToList() {
+    return toList;
   }
 
-  public String getTo() {
-    return to;
+  public String getCcList() {
+    return ccList;
   }
 
-  public String getCc() {
-    return cc;
-  }
-
-  public String getBcc() {
-    return bcc;
+  public String getBccList() {
+    return bccList;
   }
 
   public String getSubject() {
     return subject;
   }
 
-  public String getContent() {
-    return content;
+  public String getMsg() {
+    return msg;
   }
 }

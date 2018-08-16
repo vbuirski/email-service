@@ -35,9 +35,9 @@ public class MailGunEmailServiceImpl implements EmailService {
       con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
 
       String urlParameters = "from=postman@sandbox2d08c193bd834ba18b7163def4192b90.mailgun.org&" +
-              "to=vonita.buirski@gmail.com&" +
-              "subject=Surprise!!&" +
-              "text=Guess who?!";
+              "to=" + email.getToList() + "&" +
+              "subject=" + email.getSubject() + "&" +
+              "text=" + email.getMsg();
 
       // Send post request
       con.setDoOutput(true);
@@ -69,6 +69,9 @@ public class MailGunEmailServiceImpl implements EmailService {
     return new EmailResponse(true, "");
   }
 
+  public boolean sendMessage(String message) {
+    return false;
+  }
 }
 
 
