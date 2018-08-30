@@ -3,9 +3,8 @@ package au.com.vb.springboot.controller;
 
 import au.com.vb.springboot.model.Email;
 import au.com.vb.springboot.model.EmailResponse;
-import au.com.vb.springboot.service.impl.MailGunEmailServiceImpl;
+import au.com.vb.springboot.service.MailGunEmailServiceImpl;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
@@ -34,11 +33,11 @@ public class EmailControllerTest {
   Email mockEmail = new Email("vonita.buirski@gmail.com", "","","hello", "my content");
 
   String emailJson = "{"
-          + "\"toList\": \"jevon.buirski@gmail.com\","
-          + "\"ccList\": \"\","
-          + "\"bccList\": \"\","
-          + "\"subject\": \"Email Success\","
-          + "\"msg\": \"Hi\n\nRegards\nJB\"";
+          + "\"toList\":\"jevon.buirski@gmail.com\","
+          + "\"ccList\":\"\","
+          + "\"bccList\":\"\","
+          + "\"subject\":\"Email Success\","
+          + "\"msg\":\"Hi\n\nRegards\nJB\"";
 
   private String endPoint = "/send-email";
 
@@ -48,7 +47,7 @@ public class EmailControllerTest {
 
     // emailService.sendEmail to respond back with String
     Mockito.when(
-            mailGunEmailService.sendEmail(Mockito.any(Email.class))).thenReturn(new EmailResponse(true, ""));
+            mailGunEmailService.send(Mockito.any(Email.class))).thenReturn(new EmailResponse(true, ""));
 
     // Send email as body to endpoint
     RequestBuilder requestBuilder = MockMvcRequestBuilders

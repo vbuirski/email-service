@@ -1,7 +1,7 @@
 au/com/vb/springboot/controller/EmailController.class
 au/com/vb/springboot/Application.class
-au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.class
 au/com/vb/springboot/model/EmailResponse.class
 au/com/vb/springboot/model/Email.class
-au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.class
+au/com/vb/springboot/service/SendGridEmailServiceImpl.class
+au/com/vb/springboot/service/MailGunEmailServiceImpl.class
 au/com/vb/springboot/service/EmailService.class

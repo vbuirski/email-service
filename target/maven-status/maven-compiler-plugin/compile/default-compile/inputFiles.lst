@@ -1,7 +1,7 @@
+/Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/MailGunEmailServiceImpl.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/model/Email.java
-/Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/impl/SendGridEmailServiceImpl.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/EmailService.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/controller/EmailController.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/model/EmailResponse.java
-/Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/impl/MailGunEmailServiceImpl.java
 /Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/Application.java
+/Users/vbuirski/Documents/workspace-siteminder/emailservice/src/main/java/au/com/vb/springboot/service/SendGridEmailServiceImpl.java

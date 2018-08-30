@@ -1,5 +1,6 @@
-package au.com.vb.springboot.service.impl;
+package au.com.vb.springboot.service;
 
+import au.com.vb.springboot.exception.EmailException;
 import au.com.vb.springboot.model.Email;
 import au.com.vb.springboot.model.EmailResponse;
 import au.com.vb.springboot.service.EmailService;
@@ -8,16 +9,19 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
+@Qualifier("primary")
 public class MailGunEmailServiceImpl implements EmailService {
-
 
   private final String USER_AGENT = "Mozilla/5.0";
 
   @Override
-  public EmailResponse sendEmail(Email email) {
+  public EmailResponse send(Email email) throws EmailException {
 
     try {
       String url = "https://api.mailgun.net/v3/sandbox2d08c193bd834ba18b7163def4192b90.mailgun.org/messages";
@@ -60,10 +64,9 @@ public class MailGunEmailServiceImpl implements EmailService {
         response.append(inputLine);
       }
       in.close();
-      //print result
-      System.out.println(response.toString());
-    } catch (Exception ex) {
-        return new EmailResponse(false,ex.getMessage());
+
+    } catch (Exception e) {
+        throw new EmailException(e.getMessage());
     }
 
     return new EmailResponse(true, "");

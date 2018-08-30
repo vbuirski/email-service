@@ -1,1 +1,4 @@
+first.email.url=https://api.mailgun.net/v3/sandbox2d08c193bd834ba18b7163def4192b90.mailgun.org/messages
+
+second.email.url=https://api.sendgrid.com/v3/mail/send
 

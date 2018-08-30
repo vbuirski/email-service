@@ -1,4 +1,4 @@
-package au.com.vb.springboot.service.impl;
+package au.com.vb.springboot.service;
 
 import au.com.vb.springboot.model.Email;
 import au.com.vb.springboot.model.EmailResponse;
@@ -8,15 +8,17 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
+@Qualifier("secondary")
 public class SendGridEmailServiceImpl implements EmailService {
 
   private final String USER_AGENT = "Mozilla/5.0";
 
   @Override
-  public EmailResponse sendEmail(Email email) {
+  public EmailResponse send(Email email) {
 
     try {
       String url = "https://api.sendgrid.com/v3/mail/send";
